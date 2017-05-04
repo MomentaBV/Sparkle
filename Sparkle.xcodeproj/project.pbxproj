@@ -1614,6 +1614,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.momenta.agenda.macos.sparkle.finish-installation";
 				PRODUCT_NAME = finish_installation;
 			};
 			name = Debug;
@@ -1637,6 +1638,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.momenta.agenda.macos.sparkle.finish-installation";
 				PRODUCT_NAME = finish_installation;
 				ZERO_LINK = NO;
 			};
@@ -1707,6 +1709,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				INFOPLIST_FILE = SandboxService.plist;
 				OTHER_CFLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momenta.agenda.macos.sparkle.SandboxService;
 				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
@@ -1719,6 +1722,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				INFOPLIST_FILE = SandboxService.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momenta.agenda.macos.sparkle.SandboxService;
 				VALID_ARCHS = x86_64;
 			};
 			name = Release;
