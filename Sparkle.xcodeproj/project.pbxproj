@@ -2816,7 +2816,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export CODE_SIGN_IDENTITY=\"Developer ID Application: Momenta BV\"\n\"$SRCROOT/Configurations/set-agent-signing.sh\"";
+			shellScript = "export CODE_SIGN_IDENTITY=$(EXPANDED_CODE_SIGN_IDENTITY)\n\"$SRCROOT/Configurations/set-agent-signing.sh\"\n";
 		};
 		729BB3CC1D501A8F007C4276 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3911,7 +3911,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72F94ED51CC3441A002DEE68 /* ConfigInstallerLauncherDebug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WRBK2Z2EG7;
 				INFOPLIST_FILE = InstallerLauncher/Info.plist;
@@ -3923,7 +3923,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72F94ED51CC3441A002DEE68 /* ConfigInstallerLauncherDebug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WRBK2Z2EG7;
 				INFOPLIST_FILE = InstallerLauncher/Info.plist;
@@ -3935,7 +3935,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 726E07C11CAF1E79001A286B /* ConfigInstallerLauncher.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WRBK2Z2EG7;
 				INFOPLIST_FILE = InstallerLauncher/Info.plist;
